@@ -1,0 +1,87 @@
+[global]
+out_root = "./feeds_out"
+status_file = "./status.json"
+
+proxy = "http://proxygate2.nic.nec.co.jp:8080"
+timeout_connect = 5
+timeout_read = 30
+
+# false または CAバンドルのパス文字列を指定可能
+verify_tls = "C:/Users/kosugi-satoshi/Desktop/key/custom_ca_bundle.pem"
+
+user_agent = "nec-csirt-pubinfo-rss/1.0"
+
+[[feeds]]
+id = "ms_security_blog"
+name = "Microsoft (Security Blog)"
+url = "https://www.microsoft.com/en-us/security/blog/feed/"
+
+[[feeds]]
+id = "the_record"
+name = "Recorded Future (The Record)"
+url = "https://therecord.media/feed"
+
+[[feeds]]
+id = "reversinglabs_blog"
+name = "ReversingLabs (Blog)"
+url = "https://www.reversinglabs.com/blog/rss.xml"
+
+[[feeds]]
+id = "crowdstrike_blog"
+name = "CrowdStrike Blog"
+url = "https://www.crowdstrike.com/en-us/blog/feed"
+
+[[feeds]]
+id = "ms_techcommunity_security_blog"
+name = "Microsoft Security Blog (TechCommunity)"
+url = "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-security-blog"
+
+[[feeds]]
+id = "google_threat_intelligence"
+name = "Mandiant / Google TAG (Threat Intelligence)"
+url = "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/"
+
+[[feeds]]
+id = "proofpoint_threat_insight"
+name = "Proofpoint Threat Insight"
+url = "https://www.proofpoint.com/us/threat-insight-blog.xml"
+
+[[feeds]]
+id = "checkpoint_research"
+name = "Check Point Research"
+url = "https://research.checkpoint.com/feed/"
+
+[[feeds]]
+id = "cybereason_blog"
+name = "Cybereason Blog"
+url = "https://www.cybereason.com/blog/rss.xml"
+
+[[feeds]]
+id = "sentinelone_labs"
+name = "SentinelOne Labs"
+url = "https://www.sentinelone.com/blog/feed/"
+
+[[feeds]]
+id = "elastic_security_labs"
+name = "Elastic Security Labs"
+url = "https://www.elastic.co/security-labs/rss/feed.xml"
+
+[[feeds]]
+id = "dfir_report"
+name = "The DFIR Report"
+url = "https://thedfirreport.com/feed/"
+
+[[feeds]]
+id = "sans_isc_full"
+name = "SANS ISC/DShield (Full)"
+url = "https://isc.sans.edu/rssfeed_full.xml"
+
+[[feeds]]
+id = "twcert_rss_132"
+name = "TWCERT/CC"
+url = "https://www.twcert.org.tw/tw/rss-132-1.xml"
+
+[[feeds]]
+id = "twcert_tvn_rss_139"
+name = "TWCERT/CC TVN"
+url = "https://www.twcert.org.tw/en/rss-139-2.xml"
